@@ -57,5 +57,5 @@ int[,] matrix = GetMatrix(rows, columns, 0, 10);
 PrintMatrix(matrix);
 
 double[] arrayOfAvg = ArrayOfRowsAvg(matrix);
-Console.WriteLine($"Среднее арифметическое каждого столбца: {String.Join(";", arrayOfAvg)}");
+Console.WriteLine($"Среднее арифметическое каждого столбца: {String.Join("; ", arrayOfAvg)}");
 
